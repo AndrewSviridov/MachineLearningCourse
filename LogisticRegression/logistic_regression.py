@@ -4,7 +4,7 @@ import math
 from sklearn.metrics import roc_auc_score
 import numpy as np
 
-# C -- regularization parameter, X -- data, k -- step size, eps -- restriction
+# C -- regularization parameter, X -- data, k -- step size, eps -- calculation accuracy
 def logisticRegression(C, X, k, eps):
     y = X[:, 0]
     x1 = X[:, 1]
